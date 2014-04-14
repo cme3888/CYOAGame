@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ahh! Zombies!</title>
+</head>
+<body>
+  
+<script>
+  alert('Welcome to Ahh! Zombies!');
+</script>
+<script>
+    var name = prompt(" What is your name?");
+    var message = 'Hello, ' + name + ' you are the last survivor!';
+    alert(message)
+</script>
+<script>
+    alert("Choose your own Adventure! Click OK to Survive!");
+</script>
+<script>
+    alert("It\'s a beautiful day and you are walking around the IronYard thinking about the mountains of homework you have been assigned not even aware of your surroundings.");
+    alert("You look up and notice that the other students are looking a little under the weather but you brush it off.");
+    alert("Then out of the corner of your eye, you see a hand reaching out to you.");
+</script>
+<script>
+    var userAnswer = prompt("Can you help me? Type yes or no");
+ if (userAnswer === "yes" ) { 
+    alert("You gather up your fellow Ironyarder and you two head for shelter and continue on");
+} else {
+    alert("There is no I in team, you were attacked by a horde and could not fend them off alone.");
+    alert("YOU LOSE!");}
+</script>
+<script>
+    var message = ("The two of you walk for several miles, and find shelter in an abandoned building as it starts to get dark. You are both tired and hungry...time to find food");
+    alert(message)
+    var Answer = prompt("Do you look for food outside or search the abandoned building? Type 1 to look outside or type 2 to search the building");
+   if (Answer === "1" ) {
+    alert("You leave the other survivor and strike outside for food, a horde corners you alone and attacks you!");
+    alert("YOU LOSE!");
+  } else {
+    alert("You guys stick together and scour for food in the building, finding a box of raisins and a dos equis...enough to survive the night. You continue");
+ }
+</script>
+<script>
+    var message = 'You both have survived the night you decide to keep traveling and try to find help. You leave the building...';
+    alert(message)
+    var Question = prompt("Do you go right towards the city or left towards the country. Type right or left.");
+    if (Question === "right" ) {
+      alert("You travel towards the city which has been overcome by hordes and are infected. You both fight hard but to no avail you join the undead");
+      alert("YOU LOSE!");
+    }if (Question === "left") {
+      alert("You travel towards the country find safety on a farm until you are rescued!");
+      alert("Congrats on your survival! You WIN!");
+    }
+
+    </script>
